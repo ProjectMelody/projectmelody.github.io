@@ -1,8 +1,8 @@
 import {Head} from "next/head"
-import "../styles/layout.scss"
+// import "../styles/layout.scss"
 
 function Layout({children}) {
-    return <Head><title>Project Melody</title><Head><main>{children}</main>
+    return <main className="markdown-body">{children}</main>
 }
 
 export default Layout;
